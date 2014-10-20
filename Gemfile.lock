@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    birch (0.0.8)
+    mime-types (1.23)
+    progressbar (0.20.0)
+    rubyzip (0.9.9)
+    schiphol (0.9.4)
+      progressbar (>= 0.10.0)
+      rubyzip (>= 0.9.6.1)
+    treat (2.0.7)
+      birch
+      schiphol
+      yomu
+    yomu (0.1.9)
+      mime-types (~> 1.23)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  treat
